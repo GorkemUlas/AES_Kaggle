@@ -1,0 +1,22 @@
+# Veri klasörünü ve içindeki her şeyi yoksay
+data/*
+!data/.gitkeep
+
+# Tüm veri formatlarını nengelle
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Model ağırlıklarını ve büyük çıktıları engelle
+*.pt
+*.bin
+*.pth
+*.onnx
+
+# Python cache ve ortam dosyaları
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
